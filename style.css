@@ -8,7 +8,7 @@ body{
     width: 1000px;
     background-color: lightcyan;
     filter: 5px;
-    background-image: url(kart.png);
+    background-image: url(/rough/roughwork/kart.png);
 }
 #main{
     height: 50px;
@@ -247,7 +247,7 @@ body{
     position: absolute;
     height: 200px;
     width: 400px;
-    top: 130px;
+    top: 80px;
     left: 50px;
 }
 #limited p{
@@ -278,7 +278,7 @@ body{
     font-size: 1.5rem;  
     letter-spacing: -1px; 
     line-height: 1; 
-    /* animation: flicker 2s infinite alternate; */
+    
 }
 @keyframes flicker {
     
@@ -303,6 +303,7 @@ body{
 #edition-button button{
     height: 30px;
     width: 200px;background-color: red;
+    animation: flicker 2s infinite alternate;
 }
 
 #quality{
