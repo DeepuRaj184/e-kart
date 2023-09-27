@@ -6,9 +6,8 @@ body{
 #outer{
     height: 450px;
     width: 1000px;
-    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-    filter: 5px;
-    filter : opacity(50%);
+    background-color: #d13838;
+    filter: 5px , opacity(50%);
 }
 #main{
     height: 50px;
